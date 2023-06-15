@@ -17,7 +17,7 @@ ControlFocus, %classNN%, %winName%
     Sleep, 50
     Send, m
     Sleep, 50
-    Send, +s
+    Send, ^s
     Sleep, 100
     Click, 2622, 1382
     Sleep, 100
