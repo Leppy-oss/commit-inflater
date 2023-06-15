@@ -16,7 +16,7 @@ ControlFocus, %classNN%, %winName%
         CoordMode, Mouse, Screen
         Click, 2358, 133
         Sleep, 50
-        Send, m
+        Send, m {Enter}
         Sleep, 50
         Send, ^s
         Sleep, 100
@@ -25,9 +25,9 @@ ControlFocus, %classNN%, %winName%
         Send, git add . {Enter}
         Sleep, 250
         Send, git commit -m "m" {Enter}
-        Sleep, 250
+        Sleep, 300
         Send, git push {Enter}
-        Sleep, 500
+        Sleep, 600
     }
     return
     ; ControlSend, %classNN%, {a Down}, %winName%
