@@ -16,6 +16,8 @@ ControlFocus, %classNN%, %winName%
     Click, 2358, 133
     Sleep, 50
     Send, m
+    Sleep, 50
+    Send, {+s}
     Sleep, 100
     Click, 2622, 1382
     Sleep, 100
@@ -23,7 +25,7 @@ ControlFocus, %classNN%, %winName%
     Sleep, 50
     Send, git commit -m "m" {Enter}
     Sleep, 50
-    Send, git push
+    Send, git push {Enter}
     Sleep, 50
     ; ControlSend, %classNN%, {a Down}, %winName%
 return
